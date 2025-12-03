@@ -17,7 +17,7 @@ if (!res.ok) { logout(); router.push('/auth/login'); return; }
 const data = await res.json();
 setUser(data.user || user);
 }).catch(() => {});
-}, []);
+}, [router, user]);
 
 
 return (
