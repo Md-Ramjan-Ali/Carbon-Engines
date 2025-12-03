@@ -29,6 +29,6 @@
     ".next/types/**/*.ts",
     ".next/dev/types/**/*.ts",
     "**/*.mts"
-  ],
+, "lib/validators.js", "lib/authClient.js", "components/OtpInput.js", "components/ProtectedRouteClient.js", "components/Logo.js", "components/Header.js", "components/AuthForm.js", "app/home/page.js", "app/(auth)/verify-otp/page.js", "app/(auth)/verify-email/[token]/page.js", "app/(auth)/signup/page.js", "app/(auth)/reset/[token]/page.js", "app/(auth)/login/page.js", "app/(auth)/forgot/page.js", "components/AppShell.js"  ],
   "exclude": ["node_modules"]
 }
